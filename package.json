@@ -1,0 +1,22 @@
+{
+    "name": "gridstack-parcel-app",
+    "version": "1.0.0",
+    "main": "lib-dist/how-long-till-lunch.cjs.js",
+    "module": "lib-dist/how-long-till-lunch.esm.js",
+    "browser": "lib-dist/how-long-till-lunch.umd.js",
+    "dependencies": {
+        "gridstack": "^1.1.2",
+        "jquery": "^3.5.1",
+        "jquery-ui": "^1.12.1",
+        "ms": "^2.0.0"
+    },
+    "devDependencies": {
+        "parcel": "^2.0.0-nightly.284"
+    },
+    "scripts": {
+        "app:start": "parcel serve app-src/index.html --dist-dir app-dist"
+    },
+    "files": [
+        "dist"
+    ]
+}
