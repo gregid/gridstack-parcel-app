@@ -11,7 +11,7 @@
         "ms": "^2.0.0"
     },
     "devDependencies": {
-        "parcel": "^2.0.0-nightly.284"
+        "parcel": "^2.8.2"
     },
     "scripts": {
         "app:start": "parcel serve app-src/index.html --dist-dir app-dist"
